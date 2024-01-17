@@ -1,0 +1,35 @@
+__pycache__/
+
+#saved binaries
+saved/
+
+#virtual env
+env_*
+
+#local experiments
+local_exp/
+wandb/
+
+#dataset
+data
+
+#evaluation
+eval.py
+
+#binaries
+*.pkl
+*.zip
+
+#results
+dt_runs/
+dqn_runs/
+checkpoints/
+
+#jupyter notebooks
+notebooks/
+
+#vscode
+.vscode
+
+#mujoco
+MUJOCO_LOG.TXT

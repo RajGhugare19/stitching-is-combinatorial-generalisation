@@ -1,0 +1,52 @@
+seed: 1
+device: cuda
+agent_name: dt
+
+#eval
+num_eval_ep: 10
+num_eval_len:
+
+# env
+env_name: 
+dataset_name: pointmaze-umaze-v0
+remote_data: False
+num_workers: 4
+render: False
+
+#train
+num_updates_per_iter: 8000
+max_train_iters: 25         #25 x 8000 x 5-> 1000000 transition batches
+
+augment_data: False
+augment_prob: 0
+nclusters: 
+warmup_steps: 1000
+drop_p: 0.1
+batch_size: 256
+lr: 1e-3
+wt_decay: 1e-4
+
+#model
+context_len: 5
+n_blocks: 3
+embed_dim: 128
+n_heads: 1
+
+#logging
+log_dir: dt_runs
+wandb_log: False
+wandb_entity: raj19
+wandb_run_name:
+wandb_group_name:
+wandb_dir:
+
+#saving
+save_snapshot: True
+save_snapshot_interval: 25
+
+#hydra
+hydra:
+  run:
+    dir: ${log_dir}/${dataset_name}/${now:%Y.%m.%d}_${now:%H.%M.%S}
+  job:
+    chdir: False
