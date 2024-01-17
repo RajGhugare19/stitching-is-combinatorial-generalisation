@@ -1,5 +1,5 @@
 # Closing the Gap between TD Learning and Supervised Learning -- A Generalisation Point of View
-[Raj Ghugare](https://rajghugare19.github.io/), $\quad$ [Matthieu Geist](https://homangab.github.io/), $\quad$ [Glen Berseth](https://neo-x.github.io/),<sup>\*</sup> $\quad$ [Benjamin Eysenbach](https://ben-eysenbach.github.io/)<sup>\*</sup>
+[Raj Ghugare](https://rajghugare19.github.io/), $\quad$ [Matthieu Geist](https://homangab.github.io/), $\quad$ [Glen Berseth](https://neo-x.github.io/)<sup>\*</sup>, $\quad$ [Benjamin Eysenbach](https://ben-eysenbach.github.io/)<sup>\*</sup>
 
 <sup>\*</sup> Equal advising.
 
