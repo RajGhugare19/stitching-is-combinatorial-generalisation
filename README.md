@@ -5,9 +5,9 @@
 
 ## Installation
 
-Create virtual environment named `env_alm` using command:<br>
+Create virtual environment named `env_stuff` using command:<br>
 ```sh
-python3 -m venv env_dt
+python3 -m venv env_stuff
 ```
 
 Install all the packages used to run the code using the `requirements.txt` file: <br>
