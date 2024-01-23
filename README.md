@@ -22,7 +22,7 @@ To train an RvS (decision-mlp) agent on pointmaze-umaze using temporal data augm
 python train_dmlp.py dataset_name=pointmaze-umaze-v0 augment_data=True nclusters=40
 ```
 
-To train an DT (decision-transformer) agent on pointmaze-umaze using temporal data augmentation, with $\epsilon=0.5$ and $K=40$:<br> 
+To train a DT (decision-transformer) agent on pointmaze-umaze using temporal data augmentation, with $\epsilon=0.5$ and $K=40$:<br> 
 ```sh
 python train_dt.py dataset_name=pointmaze-umaze-v0 augment_data=True nclusters=40
 ```
